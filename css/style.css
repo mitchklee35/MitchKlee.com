@@ -4,9 +4,15 @@
 *  Author: TemplateMag.com
 *  License: https://templatemag.com/license/
 */
+header {
+  height: 600px;
+  width: 100vw;
+  background: black;
+  overflow: hidden;
+}
 
 body {
-  background-color: #f2f2f2;
+  background-color: #ffffff;
   font-family: "Lato";
   font-weight: 300;
   font-size: 16px;
@@ -155,13 +161,15 @@ SECTION WRAPS
 
 /* Header Wrap */
 
+
 #headerwrap {
-  background: url(../img/austin.jpg) no-repeat center top;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/aus-copy.jpg) no-repeat center top;
   margin-top: 60px;
   padding-top: 140px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
+  background-color:  rgb(0, 0, 0);
   min-height: 500px;
   width: 100%;
   -webkit-background-size: 100%;
@@ -172,16 +180,18 @@ SECTION WRAPS
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
+  /* opacity: .4; */
 }
 
 #headerwrap h1 {
   font-size: 80px;
-  color: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
 }
 
 #headerwrap h3 {
   font-size: 20px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 /* Intnro Wrap */
